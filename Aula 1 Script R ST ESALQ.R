@@ -8,7 +8,7 @@
 
 pacotes <- c("readxl","plotly","tidyverse","gridExtra","forecast","TTR",
              "smooth","tidyverse", "tsibble", "fable","tsibbledata", "fpp3",
-             "urca",)
+             "urca")
 
 if(sum(as.numeric(!pacotes %in% installed.packages())) != 0){
         instalador <- pacotes[!pacotes %in% installed.packages()]
